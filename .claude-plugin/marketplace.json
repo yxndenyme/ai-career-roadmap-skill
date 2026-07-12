@@ -1,0 +1,27 @@
+{
+  "name": "ai-career-roadmap-marketplace",
+  "owner": {
+    "name": "yxn否定我",
+    "email": "100995431@qq.com"
+  },
+  "metadata": {
+    "description": "AI职业机会分析与学习路线",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-career-roadmap-skill",
+      "description": "根据个人简历和约束生成AI职业机会与学习路线。",
+      "author": {
+        "name": "yxn否定我"
+      },
+      "category": "productivity",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/generate-ai-career-roadmap"
+      ],
+      "homepage": "https://yxndenyme.github.io/ai-career-roadmap-skill"
+    }
+  ]
+}

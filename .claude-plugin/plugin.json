@@ -1,0 +1,17 @@
+{
+  "name": "ai-career-roadmap-skill",
+  "description": "根据简历研究最新AI与泛AI机会，生成职位匹配、能力差距和个性化学习路线。",
+  "version": "1.0.0",
+  "author": {
+    "name": "yxn否定我",
+    "email": "100995431@qq.com"
+  },
+  "homepage": "https://yxndenyme.github.io/ai-career-roadmap-skill/",
+  "repository": "https://github.com/yxndenyme/ai-career-roadmap-skill",
+  "license": "MIT-0",
+  "keywords": [
+    "ai-career",
+    "resume-analysis",
+    "learning-roadmap"
+  ]
+}

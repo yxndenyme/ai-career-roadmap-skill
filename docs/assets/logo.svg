@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AI职业机会分析与学习路线</title>
+  <desc id="desc">由职业路径、能力节点和AI星芒组成的蓝绿色图标</desc>
+  <defs>
+    <linearGradient id="bg" x1="48" y1="48" x2="464" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061A40"/>
+      <stop offset="1" stop-color="#0B5FFF"/>
+    </linearGradient>
+    <linearGradient id="route" x1="114" y1="382" x2="397" y2="127" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DE2C5"/>
+      <stop offset="1" stop-color="#C7FF5E"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <path d="M105 389 C150 365 158 309 209 294 C259 279 267 227 314 211 C352 198 371 165 394 126"
+        fill="none" stroke="url(#route)" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="106" cy="389" r="25" fill="#F7FBFF" stroke="#4DE2C5" stroke-width="10"/>
+  <circle cx="210" cy="294" r="25" fill="#F7FBFF" stroke="#63E7B5" stroke-width="10"/>
+  <circle cx="315" cy="211" r="25" fill="#F7FBFF" stroke="#9CF58A" stroke-width="10"/>
+  <path d="M398 85 L410 117 L442 129 L410 141 L398 173 L386 141 L354 129 L386 117 Z"
+        fill="#C7FF5E" filter="url(#glow)"/>
+  <path d="M331 354 C358 354 380 332 380 305" fill="none" stroke="#93B7FF" stroke-width="12" stroke-linecap="round" opacity="0.75"/>
+  <path d="M380 305 L361 320 M380 305 L365 285" fill="none" stroke="#93B7FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

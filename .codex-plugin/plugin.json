@@ -1,0 +1,43 @@
+{
+  "name": "ai-career-roadmap-skill",
+  "version": "1.0.0",
+  "description": "根据个人简历和约束，研究最新 AI 与泛 AI 职业机会并生成个性化学习路线。",
+  "author": {
+    "name": "yxn否定我",
+    "email": "100995431@qq.com",
+    "url": "https://github.com/yxndenyme"
+  },
+  "homepage": "https://yxndenyme.github.io/ai-career-roadmap-skill/",
+  "repository": "https://github.com/yxndenyme/ai-career-roadmap-skill",
+  "license": "MIT-0",
+  "keywords": [
+    "ai-career",
+    "career-planning",
+    "resume-analysis",
+    "learning-roadmap",
+    "job-opportunities"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI职业机会分析与学习路线",
+    "shortDescription": "基于简历生成最新AI岗位建议与学习路线",
+    "longDescription": "结合个人经历、能力、学历、地域和时间约束，研究最新AI与泛AI产业、公司和职位，评估可迁移能力与现实差距，并生成可选周期的通识、职位专项和行业专项学习计划。",
+    "developerName": "yxn否定我",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://yxndenyme.github.io/ai-career-roadmap-skill/",
+    "privacyPolicyURL": "https://yxndenyme.github.io/ai-career-roadmap-skill/privacy.html",
+    "termsOfServiceURL": "https://yxndenyme.github.io/ai-career-roadmap-skill/terms.html",
+    "defaultPrompt": [
+      "分析我上传的简历，推荐当前适合我的AI与泛AI职位。",
+      "先通过提问了解我，再制定一份16周AI职业转型计划。",
+      "更新我的职业报告，补充最新公司、职位和中文学习资源。"
+    ],
+    "brandColor": "#0B5FFF",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
